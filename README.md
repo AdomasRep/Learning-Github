@@ -1,3 +1,3 @@
 # Demo (one # for the main header)
 
-No signs in front give just a plain text
+No signs in front give just a plain text. Other formatting tricks can be found: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax 
