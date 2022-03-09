@@ -6,6 +6,6 @@ No signs in front give just a plain text. Other formatting tricks can be found: 
 
 For example, use ## to add subsection 
 
-## Local Development
+## Local Develompent
 
 1. Open index.html in your browser
