@@ -60,8 +60,25 @@ It happens, if you make changes to the same line in different branches and try t
 There are number of stages at which you might want to undo the changes you made to the file. 
 
 * If changes were added but not yet committed, then do: *git reset* (if you want to undo changes for a certain file, add the file name) 
+
 ![reset](https://github.com/AdomasRep/Learning-Github/blob/main/Reset.png)
 
 * If changes were added and commited, then do: *git reset HEAD~1*
+
 ![reset](https://github.com/AdomasRep/Learning-Github/blob/main/Reset%20HEAD.png)
 
+* Unfortunately, there is no quick way of going back more than one commit. However, there is a way to print all the commits done to the file. Each commit has a specific key. By copying this key, you can go back by more than one commit. The list of commits can be printed by: *git log*.
+
+![log](https://github.com/AdomasRep/Learning-Github/blob/main/Log.png)
+
+* By doing:  *git reset "commit key"*, you can see how things looked after that commit. 
+
+![Reset to commit](https://github.com/AdomasRep/Learning-Github/blob/main/Reset%20to%20commit.png)
+
+* If you want to delete all the changes after that commit simply do: *git reset --hard "commit key"*.
+
+![Reset to commit hard](https://github.com/AdomasRep/Learning-Github/blob/main/Reset%20to%20commit%20hard.png)
+
+## Forking 
+
+Forking is used to create a copy of the repository. It does not make sense to fork your own repository. Therefore, usually someone else repository, which you do not have access to is forked. 
