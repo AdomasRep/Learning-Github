@@ -17,8 +17,8 @@ NOTE - you cannot have bold text or bullet points in the distinct block
 
 ## Main Git Commands
 
-* __git clone__ - brings a repository that is hosted somewhere like Github into a folder on your local machine. 
-* __git add__ - tracks files and changes in Git. You can either do __git add "file name"__ to track changes in the certain file or __git add .__ to track changes in all the files. 
-* __git commit__ - saves files with changes in Git (**not in Github**). When using this command, you **have** to add a message describing the changes: __git commit -m "message"__. If file was modified (**not created**), you can do __git commit -am "message"__ to add and commit changes in one line of code. 
-* __git push__ - uploads Git commits to a remote repository, like Github. 
-* __git pull__ - downloads changes from a remote repository to your local machine. 
+* *git clone* - brings a repository that is hosted somewhere like Github into a folder on your local machine. 
+* *git add* - tracks files and changes in Git. You can either do *git add "file name"* to track changes in the certain file or *git add .* to track changes in all the files. 
+* *git commit* - saves files with changes in Git (**not in Github**). When using this command, you **have** to add a message describing the changes: *git commit -m "message"*. If file was modified (**not created**), you can do *git commit -am "message"* to add and commit changes in one line of code. 
+* *git push* - uploads Git commits to a remote repository, like Github. 
+* *git pull* - downloads changes from a remote repository to your local machine. 
