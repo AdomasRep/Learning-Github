@@ -54,3 +54,6 @@ Usually after making changes in the new branch, those changes are merged to the 
 ## Merging Errors
 
 It happens, if you make changes to the same line in different branches and try to merge those branches. First of all, it doesn’t allow to move to the other branch if those changes were not committed. You need to either commit those changes, or stash them (not discussed in the tutorial, but basically means storing changes somewhere without committing them to git). There are few options to tackle the conflicts. Visual Studio Code (maybe some others as well), allows to tackle the conflict manually or choose the code from the certain branch and then it adapts the code automatically. 
+
+
+labas
