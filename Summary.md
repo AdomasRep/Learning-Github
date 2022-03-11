@@ -37,4 +37,4 @@ Finally, it is possible to push all the changes to Github.
 
 If you work on one code all of the commits will be in the master branch. However, if you create a new branch, commits saved in that branch won’t appear in the master branch and vice versa. It’s very common when working with many people on the same code/project. *git branch* – shows all the existing branches (here only one exists) and * indicates on which branch you are. 
 
-![Branch] (/assets/images/Branch.png)
+![Branch] (https://github.com/AdomasRep/Learning-Github/blob/main/Branch.png)
