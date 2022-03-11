@@ -43,3 +43,13 @@ If you work on one code all of the commits will be in the master branch. However
 
 ![Checkout](https://github.com/AdomasRep/Learning-Github/blob/main/Checkout%20(create%20a%20new%20branch).png)
 
+*git diff “branch to compare to”* gives difference between branches. 
+
+![Difference](https://github.com/AdomasRep/Learning-Github/blob/main/Difference%20between%20branches.png)
+
+Usually after making changes in the new branch, those changes are merged to the master branch. At that point new branch becomes useless and has to be deleted. This is done by *git branch -d “branch name”*
+
+![Delete](https://github.com/AdomasRep/Learning-Github/blob/main/Delete%20branch.png)
+
+
+
