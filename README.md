@@ -9,3 +9,4 @@ For example, use ## to add subsection
 ## Local Develompent
 
 1. Open index.html in your browser
+2. Review the changes
