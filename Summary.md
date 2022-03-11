@@ -1,6 +1,6 @@
 # [Git & Github Tutorial](https://www.youtube.com/watch?v=RGOj5yH7evk&list=WL&index=10)
 
-I believe only watching the tutorial would be useless. Therefore, I followed all the steps on my computer (index.html and README.md) and made a summary of the things I learned. I am storing this file here with the intention to learn additional [text formating skills](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). 
+I believe only watching the tutorial would be useless. Therefore, I followed all the steps on my computer (index.html and README.md) and made a summary of the things I learned. I am storing this file here with the intention to learn additional [text formating tricks](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). 
 
 ## Terms
 
@@ -22,3 +22,13 @@ NOTE - you cannot have bold text or bullet points in the distinct block
 * **git commit** - saves files with changes in Git (**not in Github**). When using this command, you **have** to add a message describing the changes: *git commit -m "message"*. If file was modified (**not created**), you can do *git commit -am "message"* to add and commit changes in one line of code. 
 * **git push** - uploads Git commits to a remote repository, like Github. 
 * **git pull** - downloads changes from a remote repository to your local machine. 
+
+## Creating a Repository Locally
+
+First, create an empty directory locally. When inside that directory, do *git init*, which will initialize an empty git repository. At that point, creating a new file, making changes to it, adding and committing them is possible. However, it is impossible to push those changes to Github. 
+
+The tutorial describes one way to push those changes to Github. You have to manually create a new repository in Github (which is titled the same as the local directory) and then do:
+```
+    git remote add origin “Link to that empty repository in Github”
+```
+Finally, it is possible to push all the changes to Github.
