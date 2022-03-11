@@ -32,3 +32,9 @@ The tutorial describes one way to push those changes to Github. You have to manu
     git remote add origin “Link to that empty repository in Github”
 ```
 Finally, it is possible to push all the changes to Github.
+
+## Branching
+
+If you work on one code all of the commits will be in the master branch. However, if you create a new branch, commits saved in that branch won’t appear in the master branch and vice versa. It’s very common when working with many people on the same code/project. *git branch* – shows all the existing branches (here only one exists) and * indicates on which branch you are. 
+
+![branch] (/assets/images/electrocat.png)
