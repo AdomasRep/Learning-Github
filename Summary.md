@@ -38,3 +38,8 @@ Finally, it is possible to push all the changes to Github.
 If you work on one code all of the commits will be in the master branch. However, if you create a new branch, commits saved in that branch won’t appear in the master branch and vice versa. It’s very common when working with many people on the same code/project. *git branch* – shows all the existing branches (here only one exists) and * indicates on which branch you are. 
 
 ![Branch](https://github.com/AdomasRep/Learning-Github/blob/main/Branch.png)
+
+*git checkout "name of a branch"* is used to switch between branches. While, *git checkout -b “name of a new branch”* creates a new branch and swithces to that branch. 
+
+![Checkout](https://github.com/AdomasRep/Learning-Github/blob/main/Checkout%20(create%20a%20new%20branch).png)
+
