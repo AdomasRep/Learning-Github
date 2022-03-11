@@ -59,4 +59,4 @@ It happens, if you make changes to the same line in different branches and try t
 
 There are number of stages at which you might want to undo the changes you made to the file. 
 
-* If changes were added but not yet committed, then do: *git reset* (if you want to undo changes for a certain file, add the file name) 
+* If changes were added but not yet committed, then do: *git reset* (if you want to undo changes for a certain file, add the file name) ![reset](https://github.com/AdomasRep/Learning-Github/blob/main/Reset.png)
